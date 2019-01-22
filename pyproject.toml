@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "dbplot"
+author = "Daniel Rodriguez"
+author-email = "df.rodriguez143@gmail.com"
+home-page = "https://github.com/danielfrg/dbplot"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+
