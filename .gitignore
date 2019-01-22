@@ -37,3 +37,6 @@ nosetests.xml
 
 # IPython Notebook
 .ipynb_checkpoints
+
+# Environments
+.venv
