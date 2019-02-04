@@ -1,17 +1,21 @@
 # dbplot
 
 dbplot allows you to make calculations for plots inside databases.
+
 dbplot is powered by [ibis](https://github.com/ibis-project/ibis) so its possible to target multiple databases that include:
-Postgres, MySQL, Apache Impala, Apache Kudu, BigQuery [and more](https://docs.ibis-project.org/) and everything that ibis will support
+Postgres, MySQL, Apache Impala, Apache Kudu, BigQuery [and more](https://docs.ibis-project.org/), also everything that ibis will support
 in the future such as Apache Spark.
 
 ## Install
 
 ```
-pip install git+git://github.com/danielfrg/dbplot.git
-
-(soon on Pypi)
 pip install dbplot
+```
+
+Development version:
+
+```
+pip install git+git://github.com/danielfrg/dbplot.git
 ```
 
 ## Usage
@@ -39,7 +43,8 @@ dbplot.hist(flights, flights.dep_time, nbins=20)
 
 ## Roadmap
 
-More plots such as raster plots, line charts and more :)
+- Automated tests
+- More plots such as raster plots, line charts and more :)
 
 ## Notes
 

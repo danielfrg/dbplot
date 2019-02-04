@@ -7,5 +7,17 @@ docker-images:  ##
 postgres-data:  ##
 	docker run -p 5432:5432 -it postgres-data
 
+dev:  ##
+	poetry install
+
+build: ##
+	poetry build
+
+upload-pypi: ##
+	poetry publish
+
+upload-testpypi: ##
+	poetry publish -r testpypi
+
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?##.*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?##"; OFS="\t\t"}; {printf "\033[36m%-30s\033[0m %s\n", $$1, ($$2==""?"":$$2)}'
