@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dbplot"
-version = "0.1.0"
+version = "0.2.0-dev"
 description = "dbplot allows you to make calculations of plots inside databases"
 license = "Apache-2.0"
 readme = "README.md"

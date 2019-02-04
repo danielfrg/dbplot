@@ -20,7 +20,7 @@ pip install git+git://github.com/danielfrg/dbplot.git
 
 ## Usage
 
-See [notebooks]() for examples.
+See [notebooks](https://github.com/danielfrg/dbplot/tree/master/notebooks) for examples.
 
 ```python
 import os
