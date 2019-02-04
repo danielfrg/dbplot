@@ -6,4 +6,3 @@
 - Build: `make build`
 - Test upload to [test.pypi.org](https://test.pypi.org): `make upload-testpypi`
 - Upload to Pypi: `make upload-pypi`
-
